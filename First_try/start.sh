@@ -9,6 +9,7 @@
 
 #!!!!!run only with sudo
 DB_DATA_PATH=/home/fangli/MF/HaoPi/First_try/data/
+mkdir $DB_DATA_PATH
 
 npm install 
 
