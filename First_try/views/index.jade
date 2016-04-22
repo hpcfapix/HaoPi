@@ -2,4 +2,12 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  p Welcome to #{title}'s space
+  form#formUserlist(name="userlist",method="get",action="/userlists")
+    br
+    button#btnUserlist(type="submit") User List
+    br
+  form#formNewuser(name="newuser",method="get",action="/newuser")
+    br
+    button#btnNewuser(type="submit") Register
+    br

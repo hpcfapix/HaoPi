@@ -7,3 +7,7 @@ block content
         each user, i in userlist
             li
                 a(href="mailto:#{user.email}")= user.username
+    form#formHome(name="home",method="get",action="/")
+      br
+      button#btnHome(type="submit") Back to Home
+      br
