@@ -18,4 +18,4 @@ mongod --dbpath ${DB_DATA_PATH} &
 
 mongo db_test &
 
-npm start 
+npm start
